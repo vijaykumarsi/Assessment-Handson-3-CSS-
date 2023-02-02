@@ -1,0 +1,247 @@
+
+.Container{
+background-color: rgb(106, 132, 61);
+width: 100%;
+height:1650px;
+margin: 0;
+padding: 0;
+}
+
+.Box1{
+    border: 6px solid red;
+    border-radius: 10px;
+    box-shadow: 7px 7px 0px 0px purple;
+    color:rgb(200, 5, 5);
+    background-color:aliceblue;
+    height: 100px;
+    width: 300px;
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 5px;
+    font-size: 27px;
+    padding-bottom: 15px;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px 2px purple;
+    font-family: 'Baloo 2', cursive;
+font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: 1000;
+    line-height: 35px;
+    position: relative;
+    top: 6px;
+    left: 400px;
+    z-index: 1;
+}
+
+.flex{
+    margin: 0;
+    border: 4px solid green;
+    background-color: darkolivegreen;
+    width: 99.5%;
+    height: 735px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Box2{
+    width: 250px;
+    height: 250px;
+    
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10;
+    margin: 0px;
+    border-radius: 7px;
+    background-color: aliceblue;
+    border: 5px solid red;
+    
+    box-shadow: 5px 5px 0px 0px purple;
+
+    
+
+}
+
+
+
+img{
+    width: 220px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.Table1{
+   position:relative;
+   color: rgb(131, 11, 11);
+   text-align: center;
+   font-size: 28px;
+   font-weight: 800;
+   text-shadow: 1.5px 1.5px 1.5px black;
+   line-height: 52px;
+   
+ 
+   
+}
+
+.Table2{
+
+    
+  position: relative; 
+  left: 850px;
+  text-shadow: 1.5px 1.5px 1.5px black; 
+
+}  
+
+.Table3{
+   position:relative;
+   top: 375px;
+   right: 520px;
+   color: rgb(131, 11, 11);
+   text-align: center;
+   font-size: 22px;
+   font-weight: 800;
+   text-shadow: 1.5px 1.5px 1.5px black;
+   line-height: 30px;
+   
+
+}
+
+.Table4{
+    position: relative;
+    top: 375px;
+   left: 340px;
+    color: rgb(131, 11, 11);
+   text-align: center;
+   font-size: 18px;
+   font-weight: 800;
+   text-shadow: 1.5px 1.5px 1.5px black;
+   line-height: 30px;
+}
+
+#Submit{
+    background-color: red;
+}
+
+.form{
+    line-height: 22px;
+    font-size:13px ;
+    color: brown;
+    text-shadow: 1px 1px 1px black;
+}
+
+ .fixed{
+  border: 7px solid red;
+  color: darkred;
+  background-color:chartreuse;
+  border-radius: 12px;
+  width: 550px;
+  height: 80px;
+  top: 450px;
+  right: 500px;
+  z-index: 1;
+  position: fixed;
+  box-shadow: 5px 5px 0px 0px purple;
+  font-size: 22px;
+  
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  
+}
+
+.subfixed1{
+    display: inline-block;
+    position: relative;
+    top:16px ;
+    left: 10px;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+.subfixed2{
+    display: inline-block;
+    position: relative;
+    top:7px ;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 550;
+
+} 
+
+.footer{
+    position: absolute;
+    top: 930px;
+    right: 450px;
+    text-align: center;
+    width: 631px;
+    border: 8px solid purple;
+    background-color: green;
+    margin: 0;
+    height: 588px;
+    padding: 0;
+}
+
+#foot1{
+    position: relative;
+    top: -30px;
+    background-color: green;
+    font-size: 30px;
+    color: black;
+    height: 65px;
+    padding-top:22px ;
+}
+.mainfoot{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.foot2{
+    position: relative;
+  background-color: yellowgreen;
+  border: 2px solid green;
+  line-height: 25px;
+  width: 49%;
+  top: -60px;
+  
+}
+
+.foot3{
+position: relative;
+background-color: yellowgreen;
+border: 2px solid green;
+line-height:23px;
+
+width: 49%;
+top: -60px;
+}
+
+.last{
+ position: relative;
+ top: -82px;
+ background-color: yellowgreen;
+ padding-bottom: 2px;
+}
+
+#other{
+    font-style: italic;
+    font: bold;
+    font-size: 24px;
+    position: relative;
+    top: 23px;
+
+}
+
+
+#veg{
+font-style: italic;
+font-size: 23px;
+}
+
+#fruit{
+font-style: italic;
+font-size: 23px;
+}
